@@ -115,7 +115,7 @@ nav{
 .about-container{
   padding: 0 0 0 20px;
   background-color: #EAF2FD;
-  height: 330px;
+  height: 100%;
   line-height: normal;
 }
 
@@ -124,6 +124,11 @@ nav{
   font-weight: 900;
   text-align: center;
   padding: 20px 0 0 0;
+}
+
+.about-paragraph{
+  text-align: justify;
+  font-size: 18px;
 }
 
 .skills{
@@ -360,6 +365,7 @@ form{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 15px;
 }
 
 input{
