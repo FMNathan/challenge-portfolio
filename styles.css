@@ -271,7 +271,6 @@ nav{
   align-content: center;
   justify-content: center;
   align-items: center;
-  gap: 50px;
 }
 
 .experience-section-title{
@@ -290,6 +289,7 @@ nav{
   justify-content: flex-start;
   align-items: center;
   gap: 150px;
+  padding-bottom: 50px;
 }
 
 .experience-img{  
@@ -356,6 +356,7 @@ nav{
   align-items: center;
   justify-content: center;
   padding: 60px 0 60px 0;
+  background-color: #EAF2FD;
 }
 
 form{
@@ -372,9 +373,9 @@ input{
   padding: 15px;
   border-radius: 8px;
   outline: none;
-  border: 1px solid;
-  width: 30%;
-  font-size: 18px;
+  border: none;
+  width: 40%;
+  font-size: 14px;
 }
 
 .btn-enviar{
@@ -399,14 +400,23 @@ input{
 }
 
 #subject{
-  width: 1000px;
-  height: 270px;
+  width:656px;
+  height: 133px;
   border: none;
-  font-size: 18px
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Loto", sans-serif;
+  padding: 7px;
+}
+
+.img-contato{
+  width: 23%;
+  position: absolute;
+  left: 7%;
 }
 
 .footer{
-    background-color: #EAF2FD;
+
 }
 
 .footer-footer{
