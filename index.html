@@ -264,21 +264,27 @@
       </section>    
   <!--CONTATO-->    
       
-      <div class="form" id="contato">
-        <img class="img-contato" src="assets/contact-img.jpg" alt="">
-        <form action="#">
-          <label for="fname">Nome</label>
-          <input type="text" id="fname" name="name" placeholder="Nome">
-
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Email"> 
-
-          <label for="subject">Assunto</label>
-          <input type="text" id="assunto" name="assunto" placeholder=" Assunto">
-          
-          <textarea name="subject" id="subject" placeholder="Mensagem"></textarea>
-
-          <input class="btn-enviar" type="submit"  value="Enviar mensagem">
+      <div class="form-pattern">
+        <form action="/pagina-processa-dados-do-form" method="post" id="contato">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+          </div>
+          <div>
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" />
+          </div>
+          <div>
+            <label for="mensagem"></label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Enviar mensagem</button>
+          </div>
         </form>
       </div>
   <!--FOOTER-->
