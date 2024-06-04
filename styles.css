@@ -360,7 +360,9 @@ nav{
 
 .contact-img-form{
   position: relative;
-  left: 250px;
+  left: 16%;
+  height: 593px;
+  width: 464px;
 }
 
 form{
