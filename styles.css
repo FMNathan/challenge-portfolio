@@ -347,10 +347,15 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
 }
 
 .experience-btn-repo:hover{
   background-color: #343633d0;
+  transform:  translateY(-10px);
 }
 
 .experience-btn-demo{
@@ -366,10 +371,15 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
 }
 
 .experience-btn-demo:hover{
   background-color: #343633d0;
+  transform:  translateY(-10px);
 }
 
 .contact-img-form{
